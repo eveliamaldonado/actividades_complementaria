@@ -51,13 +51,13 @@
 						<form method="post">
 							<div class="row">
 								<div class="input-field col s12">
-          							<input value="<?php echo $rs_details['clave_carrera'] ?>" name="clave_carrera_2" type="text">
+          							<input placeholder="<?php echo $rs_details['clave_carrera'] ?>" name="clave_carrera_2" type="text">
         						</div>
 							</div>
 							<div class="row">
         						<div class="input-field col s4">
         							<!--<i class="material-icons prefix">account_circle</i>-->
-          							<input value="<?php echo $rs_details['nombre_carrera'] ?>" name="nombre_carrera" type="text">
+          							<input placeholder="<?php echo $rs_details['nombre_carrera'] ?>" name="nombre_carrera" type="text">
         						</div>
         						</div>
 

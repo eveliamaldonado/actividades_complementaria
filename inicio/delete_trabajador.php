@@ -1,7 +1,6 @@
 <?php
  require_once('../conexion/conexion.php');
  $rfc = isset($_GET['rfc']) ? $_GET['rfc'] : 0 ;
- //echo $rfc; 
  $sql = 'DELETE FROM trabajador WHERE rfc = ?';
  
  $statement = $pdo->prepare($sql);

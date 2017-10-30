@@ -57,26 +57,26 @@
 						<form method="post">
 							<div class="row">
 								<div class="input-field col s12">
-          							<input value='<?php echo $rs_details['rfc_instructor'] ?>' name='rfc_instructor_2' type="text">
+          							<input placeholder='<?php echo $rs_details['rfc_instructor'] ?>' name='rfc_instructor_2' type="text">
         						</div>
 							</div>
 							<div class="row">
         						<div class="input-field col s4">
         							<!--<i class="material-icons prefix">account_circle</i>-->
-          							<input value='<?php echo $rs_details['nombre_instructor'] ?>' name='nombre_instructor' type="text">
+          							<input placeholder='<?php echo $rs_details['nombre_instructor'] ?>' name='nombre_instructor' type="text">
         						</div>
         						<div class="input-field col s4">
         							<!--<i class="material-icons prefix">account_circle</i>-->
-          							<input value="<?php echo $rs_details['ApellidoP_instructor'] ?>" name="ApellidoP_instructor" type="text">
+          							<input placeholder="<?php echo $rs_details['ApellidoP_instructor'] ?>" name="ApellidoP_instructor" type="text">
         						</div>
         						<div class="input-field col s4">
         							<!--<i class="material-icons prefix">account_circle</i>-->
-          						<input value="<?php echo $rs_details['ApellidoM_instructor'] ?>" name="ApellidoM_instructor" type="text">
+          						<input placeholder="<?php echo $rs_details['ApellidoM_instructor'] ?>" name="ApellidoM_instructor" type="text">
         						</div>
         					</div>
         					<div class = "row">
         						<div class = "input-field col s12">
-        							<input value="<?php echo $rs_details['act_complementaria_clave_act'] ?>" name = "act_complementaria_clave_act" type = "text">
+        							<input placeholder="<?php echo $rs_details['act_complementaria_clave_act'] ?>" name = "act_complementaria_clave_act" type = "text">
         						</div>
         					</div>
         				<input class="btn waves-effect waves-light" type="submit" value="Modificar" />
