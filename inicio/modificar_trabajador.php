@@ -57,26 +57,26 @@
 						<form method="post">
 							<div class="row">
 								<div class="input-field col s12">
-          							<input placeholder='<?php echo $rs_details['rfc'] ?>' name='rfc_trabajador_2' type="text">
+          							<input value='<?php echo $rs_details['rfc'] ?>' name='rfc_trabajador_2' type="text">
         						</div>
 							</div>
 							<div class="row">
         						<div class="input-field col s4">
         							<!--<i class="material-icons prefix">account_circle</i>-->
-          							<input placeholder='<?php echo $rs_details['nombre_trabajador'] ?>' name='nombre_trabajador' type="text">
+          							<input value='<?php echo $rs_details['nombre_trabajador'] ?>' name='nombre_trabajador' type="text">
         						</div>
         						<div class="input-field col s4">
         							<!--<i class="material-icons prefix">account_circle</i>-->
-          							<input placeholder="<?php echo $rs_details['ApellidoP_trabajador'] ?>" name="ApellidoP_trabajador" type="text">
+          							<input value="<?php echo $rs_details['ApellidoP_trabajador'] ?>" name="ApellidoP_trabajador" type="text">
         						</div>
         						<div class="input-field col s4">
         							<!--<i class="material-icons prefix">account_circle</i>-->
-          						<input placeholder="<?php echo $rs_details['ApellidoM_trabajador'] ?>" name="ApellidoM_trabajador" type="text">
+          						<input value="<?php echo $rs_details['ApellidoM_trabajador'] ?>" name="ApellidoM_trabajador" type="text">
         						</div>
         					</div>
         					<div class = "row">
         						<div class = "input-field col s12">
-        							<input placeholder="<?php echo $rs_details['clave_presupuestal'] ?>" name = "clave_presupuestal" type = "text">
+        							<input value="<?php echo $rs_details['clave_presupuestal'] ?>" name = "clave_presupuestal" type = "text">
         						</div>
         					</div>
         				<input class="btn waves-effect waves-light" type="submit" value="Modificar" />
@@ -106,7 +106,7 @@
 							<td><?php echo $rs2['clave_presupuestal']?></td>
 							<td><a class="btn waves-effect waves-light" href="modificar_trabajador.php?rfc=<?php echo $rs2['rfc']; ?>">Ver detalles</a></td>
 
-                             <td><a class="btn waves-effect waves-light red" onclick="delete_trabajador(<?php echo $rs2['rfc']; ?>)" href="#">ELIMINAR</a>
+                             <td><a class="btn waves-effect waves-light red" onclick="delete_trabajador('<?php echo $rs2["rfc"]; ?>')" href="#">ELIMINAR</a>
 
 					    </tr>
 					    <?php 

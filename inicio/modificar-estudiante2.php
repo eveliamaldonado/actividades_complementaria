@@ -64,20 +64,20 @@
 						<form method="post">
 							<div class="row">
 								<div class="input-field col s12">
-          							<input placeholder="<?php echo $rs_details['No_contro'] ?>" name="No_control_2" type="text" value="<?php echo $rs_details['No_contro'] ?>">
+          							<input value="<?php echo $rs_details['No_contro'] ?>" name="No_control_2" type="text" value="<?php echo $rs_details['No_contro'] ?>">
         						</div>
 							</div>
 							<div class="row">
         						<div class="input-field col s4">
-          							<input placeholder="<?php echo $rs_details['nombre_estudiante'] ?>" name="nombre_estudiante" type="text" value="<?php echo $rs_details['nombre_estudiante'] ?>">
+          							<input value="<?php echo $rs_details['nombre_estudiante'] ?>" name="nombre_estudiante" type="text" value="<?php echo $rs_details['nombre_estudiante'] ?>">
         						</div>
         						<div class="input-field col s4">
         							
-          							<input placeholder="<?php echo $rs_details['Apellido_Pestudiante'] ?>" name="Apellido_Pestudiante" type="text" value="<?php echo $rs_details['Apellido_Pestudiante'] ?>">
+          							<input value="<?php echo $rs_details['Apellido_Pestudiante'] ?>" name="Apellido_Pestudiante" type="text" value="<?php echo $rs_details['Apellido_Pestudiante'] ?>">
         						</div>
         						<div class="input-field col s4">
         					 		
-          						<input placeholder="<?php echo $rs_details['Apeliido_Mestudiante'] ?>" name="Apeliido_Mestudiante" type="text" value="<?php echo $rs_details['Apeliido_Mestudiante'] ?>">
+          						<input value="<?php echo $rs_details['Apeliido_Mestudiante'] ?>" name="Apeliido_Mestudiante" type="text" value="<?php echo $rs_details['Apeliido_Mestudiante'] ?>">
         						</div>
         					</div>
         					<div class="row">
